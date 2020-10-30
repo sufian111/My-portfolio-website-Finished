@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import MyworkSection from "../../HomePage/MyworkSection/MyworkSection";
 
 const Works = () => {
-    return (
-        <div>
-            <h1>all work are here</h1>
-        </div>
-    );
+  return (
+    <div className="container">
+      <MyworkSection></MyworkSection>
+    </div>
+  );
 };
 
 export default Works;
