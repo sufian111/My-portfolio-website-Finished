@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="container">
       <ArticleSection></ArticleSection>
-      <p className="pb-4 text-center">
+      <p className="p-4 mt-3 text-center">
         Designed & Built by <span className="text-blue"> Md. Abu Sufian</span>
       </p>
     </div>

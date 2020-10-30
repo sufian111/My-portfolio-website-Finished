@@ -57,9 +57,13 @@ const NavBarTop = () => {
                 </a>
               </li>
             </Link>
-            <Link to="/">
+
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1YSAM6WRbnb0CBgehKeBYMQvJLycwSQuK/view"
+            >
               <button class="btn btn-outline-success">Resume</button>
-            </Link>
+            </a>
           </ul>
         </div>
       </nav>

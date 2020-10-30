@@ -1,8 +1,9 @@
-a {
+.nav-link a {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   text-decoration: none;
   font-size: 1rem;
+  outline: none;
 }
 .nav-link {
   color: #e6f1ff;
@@ -20,3 +21,4 @@ a:hover {
 .active {
   border-top: 2px solid #64ffda;
 }
+
