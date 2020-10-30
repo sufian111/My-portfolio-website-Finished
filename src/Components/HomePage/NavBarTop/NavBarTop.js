@@ -4,7 +4,7 @@ import "./NavBarTop.css";
 const NavBarTop = () => {
   return (
     <div className="container">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar  navbar-expand-lg">
         <a class="navbar-brand" href="/">
           <h1>S</h1>
         </a>
@@ -17,7 +17,9 @@ const NavBarTop = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span style={{ color: "white" }} class="navbar-toggler-icon">
+            Menu
+          </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">

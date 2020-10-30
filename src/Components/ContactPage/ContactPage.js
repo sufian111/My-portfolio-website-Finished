@@ -17,7 +17,7 @@ const ContactPage = () => {
             <button class="btn btn-outline-success p-3">Resume</button>
           </a>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 mt-2">
           <div className="contact-details">
             <ul>
               <li>
