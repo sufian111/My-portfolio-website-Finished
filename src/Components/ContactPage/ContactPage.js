@@ -8,10 +8,14 @@ const ContactPage = () => {
           <p style={{ color: "rgb(187, 190, 195)", lineHeight: "2" }}>
             I am interested in working with any company that thinks my skill
             will be helpful for them. If you are looking for someone like me,
-            <br />
             please let me know. Or you can just 'say hi' to me.
           </p>
-          <button className="btn btn-success p-3">Contact Me</button>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1YSAM6WRbnb0CBgehKeBYMQvJLycwSQuK/view"
+          >
+            <button class="btn btn-outline-success p-3">Resume</button>
+          </a>
         </div>
         <div className="col-md-6">
           <div className="contact-details">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HeaderSection.css";
+import logo from "../../../image/undraw_web_developer_p3e5.svg";
 const HeaderSection = () => {
   const locationPath = window.location.pathname;
 
@@ -33,7 +34,13 @@ const HeaderSection = () => {
           </div>
         </div>
         <div className="col-md-6 hero-image">
-          <img src="https://i.ibb.co/vvHVLJr/sufian-personal-pic.png" alt="" />
+          {locationPath === "/" && (
+            <img
+              src="https://i.ibb.co/vvHVLJr/sufian-personal-pic.png"
+              alt=""
+            />
+          )}
+          {locationPath === "/about" && <img src={logo} alt="" />}
         </div>
       </div>
     </div>
