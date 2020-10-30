@@ -1,0 +1,8 @@
+.text-blue {
+  color: #64ffda;
+}
+.hero-image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
