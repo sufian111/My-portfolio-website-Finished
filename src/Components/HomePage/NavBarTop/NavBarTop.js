@@ -64,7 +64,7 @@ const NavBarTop = () => {
             </Link>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1YSAM6WRbnb0CBgehKeBYMQvJLycwSQuK/view"
+              href="https://drive.google.com/file/d/1UMh81PmPCYbTm0cj1Ik4_AVCSg2lC8uA/view?usp=sharing"
             >
               <button class="btn btn-outline-success">Resume</button>
             </a>
