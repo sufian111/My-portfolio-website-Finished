@@ -1,6 +1,11 @@
 import React from "react";
 import "./ContactPage.css";
+
+import { BiArrowFromBottom } from "react-icons/bi";
 const ContactPage = () => {
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div className="contact-page container">
       <div className="row align-items-center p-5 mt-5">
@@ -24,7 +29,7 @@ const ContactPage = () => {
                 <h5>
                   <strong>Email</strong>
                 </h5>
-                <p>
+                <p className="mr-5">
                   mdaabusufian069@gmail.com <span>(Recommended)</span>
                 </p>
               </li>
@@ -52,9 +57,12 @@ const ContactPage = () => {
         </div>
       </div>
       <div className="p-2">
-        <p className="p-5 text-center">
+        <p className="p-3 text-center">
           Designed & Built by <span className="text-blue"> Md. Abu Sufian</span>
         </p>
+        <div style={{ textAlign: "center" }}>
+          <BiArrowFromBottom onClick={scrollTop} style={{ fontSize: "32px" }} />
+        </div>
       </div>
     </div>
   );

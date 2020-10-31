@@ -1,7 +1,11 @@
 import React from "react";
+import { BiArrowFromBottom } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 const LastPart = () => {
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div className="mt-5 p-5" style={{ textAlign: "center" }}>
       <div>
@@ -20,6 +24,7 @@ const LastPart = () => {
         <p className="mt-5">
           Designed & Built by <span className="text-blue"> Md. Abu Sufian</span>
         </p>
+        <BiArrowFromBottom onClick={scrollTop} style={{ fontSize: "32px" }} />
       </div>
     </div>
   );

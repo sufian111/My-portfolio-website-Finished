@@ -2,8 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import bestWork from "../../Data/Bestworks";
 import SingleWordCard from "./SingleWordCard";
-
+import { BiArrowFromBottom } from "react-icons/bi";
 const MyworkSection = () => {
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   const myBestWork = bestWork;
   const [allBestWork, setAllBestWork] = useState(myBestWork);
   const locationPath = window.location.pathname;
@@ -46,6 +49,9 @@ const MyworkSection = () => {
           allBestWork.map((work) => (
             <SingleWordCard work={work}></SingleWordCard>
           ))}
+      </div>
+      <div className="mt-5 pt-5" style={{ textAlign: "center" }}>
+        <BiArrowFromBottom onClick={scrollTop} style={{ fontSize: "32px" }} />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const SingleArticle = (props) => {
   };
 
   return (
-    <div className="col-md-4">
+    <div className="col-md-4 mt-4">
       <a
         style={{ textDecoration: "none", color: "white", outline: "none" }}
         class="blog-link"

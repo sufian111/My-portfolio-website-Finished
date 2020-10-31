@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBarTop.css";
+import { BiAlignLeft } from "react-icons/bi";
 const NavBarTop = () => {
+  const path = window.location.pathname;
+
   return (
     <div className="container">
-      <nav class="navbar  navbar-expand-lg">
+      <nav class="navbar   navbar-expand-lg">
         <a class="navbar-brand" href="/">
           <h1>S</h1>
         </a>
@@ -18,7 +21,7 @@ const NavBarTop = () => {
           aria-label="Toggle navigation"
         >
           <span style={{ color: "white" }} class="navbar-toggler-icon">
-            Menu
+            <BiAlignLeft style={{ fontSize: "32px" }} />
           </span>
         </button>
 
@@ -26,7 +29,7 @@ const NavBarTop = () => {
           <ul class="navbar-nav ml-auto">
             <Link to="/">
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link active" href="/">
                   Home
                 </a>
               </li>
@@ -59,7 +62,6 @@ const NavBarTop = () => {
                 </a>
               </li>
             </Link>
-
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1YSAM6WRbnb0CBgehKeBYMQvJLycwSQuK/view"
