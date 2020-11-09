@@ -7,7 +7,10 @@ const NavBarTop = () => {
 
   return (
     <div className="container">
-      <nav class="navbar   navbar-expand-lg">
+      <nav
+        style={{ backgroundColor: "rgb(10, 25, 47)" }}
+        class="navbar   navbar-expand-lg"
+      >
         <a class="navbar-brand" href="/">
           <h1>S</h1>
         </a>
@@ -64,7 +67,7 @@ const NavBarTop = () => {
             </Link>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1UMh81PmPCYbTm0cj1Ik4_AVCSg2lC8uA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PEd-kNTxhQsStdIeL5M9CUmoITHBP5bu/view"
             >
               <button class="btn btn-outline-success">Resume</button>
             </a>

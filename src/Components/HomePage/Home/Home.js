@@ -2,6 +2,7 @@ import React from "react";
 import ArticleSection from "../ArticleSection/ArticleSection";
 import HeaderSection from "../HeaderSection/HeaderSection";
 import MyworkSection from "../MyworkSection/MyworkSection";
+import NavBarTop from "../NavBarTop/NavBarTop";
 
 import "./Home.css";
 import LastPart from "./LastPart/LastPart";
